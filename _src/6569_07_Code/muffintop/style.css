@@ -1,0 +1,288 @@
+/*
+Theme Name: Muffin Top
+Theme URI: http://packt:8888/
+Description: Design created especially for April's Food Blog for WordPress Complete.
+Version: 1.0
+Author: April Hodge Silver
+Author URI: http://springthistle.com/
+Tags: brown, fixed width, two columns, widgets, food
+*/
+
+body {
+	margin: 0px;
+	background: #ddd url('images/bg-body.gif') repeat-x;
+	font-family:  "Trebuchet MS", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+a, a:visited {
+	color: #397cc6;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*** STRUCTURAL PLACEMENT - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+#container {
+	margin: 0 auto;
+	width: 837px
+}
+
+#header {
+	margin: 35px 0 0 0;
+	height: 343px;
+	background: url('images/header.jpg') no-repeat;
+}
+
+#mainnav {
+	padding: 40px 0 0 30px;
+}
+
+#content {
+	background: #fff url('images/bg-content.gif');
+	padding: 0 10px 0 10px;
+}
+
+#copy {
+	width: 590px;
+	float: right;
+}
+
+#sidebar {
+	width: 200px;
+	float: left;
+	background-color: #F7F7F7;
+}
+
+#footer {
+	background: url('images/footer.gif') no-repeat;
+	height: 79px;
+}
+
+/*** STYLING PIECES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* header title */
+#header h1 {
+	color: #fff;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 140px 0 5px 500px;
+	text-transform: lowercase;
+}
+
+#header h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header h1 a:hover {
+	background-color: #9A8A71;
+}
+
+#header #description {
+	color: #fff;
+	margin: 0 0 5px 500px;
+	text-transform: lowercase;
+}
+
+/* main (top) navigation */
+#mainnav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#mainnav li {
+	margin: 0;
+	padding: 0 30px 0 0;
+	display: inline;
+	color: #82aedf;
+}
+
+#mainnav ul li:before {
+	content: "\00A4 \0020 \0020";
+}
+
+#mainnav a, #mainnav a:visited {
+	color: #bad2ee;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#mainnav a:hover {
+	text-decoration: underline;
+}
+
+#mainnav .current_page_item a, #mainnav .current_page_item a:visited {
+	text-decoration: underline;
+}
+
+
+/* sidebar */
+
+#sidebar {
+	padding: 0 0 20px 0;
+}
+
+#sidebar ul, #sidebar li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#sidebar h2 {
+	color: #b7b6b6;
+	font-weight: normal;
+	font-size: 18px;
+	margin: 0 0 5px 10px;
+}
+
+#sidebar ul li ul {
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+
+#sidebar ul li ul li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#sidebar input {
+	background-color: #ededed;
+	border: 1px solid #ccc;
+	padding: 4px;
+	margin-left: 10px;
+}
+/* copy */
+
+#copy h2.pagetitle {
+	margin: 0 0 10px 0;
+	color: #666;
+}
+
+/* posts */
+.post {
+	border-bottom: 3px solid #f7f7f7;
+	padding: 0 0 15px 0;
+	margin: 0 0 10px 0;
+	clear: both;
+}
+
+.post h2 {
+	color: #c1ae90;
+	font-weight: normal;
+	margin: 0;
+}
+
+.post h2 a {
+	color: #c1ae90;
+}
+
+.post .categories, .post .tags, .post .post-date {
+	color: #bababa;
+	font-size: 12px;
+}
+
+.post .post-date {
+	float: right;
+	margin-top: -18px;
+}
+
+.post .comments {
+	font-size: 12px;
+	float: right;
+	margin-top: -20px;
+}
+
+.post .comments a, .post .comments a:visited {
+	background: url('images/icon-comments.gif') no-repeat 0 3px;
+	padding: 1px 0 1px 18px;
+}
+
+.post img {
+	padding: 5px;
+	border: 4px solid #e2e2e2;
+	margin: 10px;
+}
+
+#copy textarea {
+	width: 550px;
+}
+
+/* footer */
+
+#footer {
+	color: #dedede;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 20px;
+	text-transform: lowercase;
+}
+
+#footer a, #footer a:visited {
+	color: #dedede;
+}
+
+#footer a:hover {
+	color: #bbb;
+}
+
+/* WordPress styles */
+
+.tall {
+	padding-bottom: 30px;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+.wp-caption {
+	padding-top: 5px;
+	border: 4px solid #e2e2e2;
+	text-align: center;
+	background-color: #fff;
+	margin: 10px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+	color: #bbb;
+}
+
+.hidden, #searchsubmit {
+	display: none;
+}
+
+/* For plugin: RSSImport */
+
+#sidebar ul li.ethicurian h2 {
+	margin-top: 30px;
+}
+
+#sidebar ul li.ethicurian ul li {
+	font-size: 10px;
+	line-height: 10px;
+	margin-bottom: 10px;
+}
+
+#sidebar ul li.ethicurian small {
+	color: #666;
+}
+

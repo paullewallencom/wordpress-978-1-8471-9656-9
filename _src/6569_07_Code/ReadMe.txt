@@ -1,0 +1,1 @@
+This folder, muffintop, contains the theme with all of the modifications made during this chapter.

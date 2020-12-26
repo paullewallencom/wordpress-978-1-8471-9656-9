@@ -1,0 +1,101 @@
+body {
+	margin: 0px;
+	background: #fff url('images/bg-body.png') repeat-x;
+	font-family:  "Trebuchet MS", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #444;
+}
+
+a, a:visited {
+	color: #47b86a;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*** STRUCTURAL PLACEMENT - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+#container {
+	margin: 0 auto;
+	width: 800px;
+}
+
+#header {
+	margin: 0 0 0 0;
+	padding: 92px 0 0 0;
+	background: url('images/sunny-mtn-family-farm.png') no-repeat;
+}
+
+#mainnav {
+	padding: 0;
+	margin: 2px 0 0 0;
+}
+
+#footer {
+	background-color: #f2f2f2;
+	border-top: 3px solid #ccc;
+}
+
+/*** STYLING PIECES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* header title */
+#header h1, #header #description {
+	display: none;
+}
+
+/* main (top) navigation */
+#mainnav {
+	background-color: #e9f3ef;
+	padding: 10px;
+}
+
+#mainnav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#mainnav li {
+	margin: 0 5px 0 5px;
+	padding: 0;
+	display: inline;
+	list-style: none;
+}
+
+#mainnav a, #mainnav a:visited {
+	padding: 10px 20px;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#mainnav a:hover, #main-nav .current-page {
+	background-color: #fff;
+}
+
+/* footer */
+
+#footer {
+	color: #b0b0b0;
+	font-size: 12px;
+	padding: 20px;
+}
+
+#footer a, #footer a:visited {
+	color: #b0b0b0;
+}
+
+#footer a:hover {
+	color: #888;
+}
+
+#footer ul {
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+#footer li {
+	margin: 0 10px 0 0;
+	padding: 0;
+	display: inline;
+	list-style: none;
+}

@@ -1,0 +1,274 @@
+/*
+Theme Name: Sunny Mountain
+Theme URI: http://sunnymountain:8888/
+Description: Design created especially for the fictional Sunny Mountain Family Farm for WordPress Complete.
+Version: 1.0
+Author: April Hodge Silver
+Author URI: http://springthistle.com/
+Tags: brown, fixed width, one column, farming
+*/
+
+body {
+	margin: 0px;
+	background: #fff url('images/bg-body.png') repeat-x;
+	font-family:  "Trebuchet MS", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #444;
+}
+
+a, a:visited {
+	color: #47b86a;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h2 {
+	color: #589dda;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 18px;
+}
+
+/*** STRUCTURAL PLACEMENT - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+#container {
+	margin: 0 auto;
+	width: 800px;
+}
+
+#header {
+	margin: 0 0 0 0;
+	padding: 92px 0 0 0;
+	background: url('images/sunny-mtn-family-farm.png') no-repeat;
+}
+
+#mainnav {
+	padding: 0;
+	margin: 2px 0 0 0;
+}
+
+#content {
+	padding: 0;
+}
+
+.narrow {
+	width: 500px;
+	float: left;
+}
+
+#sidebar {
+	width: 200px;
+	float: right;
+	margin: 20px 0 0 0;
+	padding: 15px;
+	background-color: #f2f2f2;
+}
+
+#footer {
+	background-color: #f2f2f2;
+	border-top: 3px solid #ccc;
+}
+
+/*** STYLING PIECES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* header title */
+#header h1, #header #description {
+	display: none;
+}
+
+/* main (top) navigation */
+#mainnav {
+	background-color: #e9f3ef;
+	padding: 10px;
+}
+
+#mainnav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#mainnav li {
+	margin: 0 5px 0 5px;
+	padding: 0;
+	display: inline;
+	list-style: none;
+}
+
+#mainnav a, #mainnav a:visited {
+	padding: 10px 20px;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#mainnav a:hover, #main-nav .current-page {
+	background-color: #fff;
+}
+
+/* sidebar */
+
+#sidebar {
+	padding: 0 0 20px 0;
+}
+
+#sidebar h3 {
+	color: #b7b6b6;
+	font-weight: normal;
+	font-size: 18px;
+	margin: 10px 0 5px 10px;
+}
+
+#sidebar ul {
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+#sidebar li {
+	margin: 0 0 5px 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/* footer */
+
+#footer {
+	color: #b0b0b0;
+	font-size: 12px;
+	padding: 20px;
+}
+
+#footer a, #footer a:visited {
+	color: #b0b0b0;
+}
+
+#footer a:hover {
+	color: #888;
+}
+
+#footer ul {
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+#footer li {
+	margin: 0 10px 0 0;
+	padding: 0;
+	display: inline;
+	list-style: none;
+}
+
+/* homepage */
+
+#home-left {
+	float: left;
+	width: 410px;
+	margin: 20px 0 0 0;
+	padding: 0 40px 0 0;
+	background: url('images/bg-home.gif') repeat-y;
+}
+
+#home-right {
+	float: right;
+	width: 330px;
+	margin: 20px 0 0 0;
+}
+
+#home-left h2, #home-right h2 {
+	margin-top: 0;
+}
+
+#home-right p {
+	margin: 0 0 15px 0;
+}
+
+#home-right h3 {
+	font-size: 14px;
+	margin: 0;
+	font-weight: bold;
+}
+
+.single-date {
+	float: right;
+	margin-top: -35px;
+	color: #999;
+}
+
+#home-left img {
+	padding: 0;
+	border: 0;
+}
+
+/* wordpress styles */
+
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+img.centered, img.alignright, img.alignleft {
+	border: 1px solid #ccc;
+	padding: 6px;
+}
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
